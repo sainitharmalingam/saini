@@ -1,0 +1,139 @@
+.img-fluid {
+	width: 100%; 
+}
+body{
+	font-family: Arial;
+	background: #faf0f0;
+    color: #47167d;
+}
+
+header{
+	position: fixed;
+	background-color: #fff;
+	width: 100%;
+	top:0;
+	left: 0;
+	font-size: 250
+}
+h2 {
+	text-align: center;
+}
+header > nav {
+	text-align: center;
+}
+nav ul li{
+	margin: 0 5px;
+}
+ul{
+	list-style: none;
+}
+li{
+	display: inline-block;
+}
+a{
+	text-decoration: none;
+	color: inherit;
+}
+a:hover{
+	color : #b489e4;
+}
+.active{
+	color : #b489e4;
+}
+section > article{
+	padding-top: 35px;
+}
+footer{
+	display: flex;
+}
+footer > div div{
+	display: inline-block;
+}
+
+footer > div:nth-child(2){
+	position: absolute;
+	right: 0;
+}
+.reseaux{
+	width: 42px;
+}
+
+.container{
+	margin: 0 35px;
+}
+#accueil{
+	text-align: center;
+	color: #fff;
+}
+.svgTop{
+	fill: rgb(0, 0, 0);
+	position: absolute;
+    z-index: -1;
+    top: -8px;
+    transform: rotate(52deg);
+    left: -560px;
+}
+#aPropos h2{
+	text-align: center;
+}
+#contenu{
+	text-align: center;
+}
+#contenu > article > aside, #contenu > article > article {
+	display: inline-table;
+}
+#contenu ul{
+	padding: 72px;
+}
+#contenu li{
+	display: block;
+    margin: 10px 0;
+}
+#contenu article article{
+	min-width: 900px;
+}
+#contenu article p{
+	max-width: 785px;
+    margin-left: 30px;
+}
+#contact{
+	text-align: center;
+}
+input[type="text"],input[type="email"],textarea{
+	border: none;
+    border-radius: 15px;
+    padding: 3px;
+    margin: 7px;
+    width: 250px;
+    height: 25px;
+}
+input[type="email"]{
+	width: 523px;
+}
+textarea{
+	width: 523px;
+    height: 78px;
+}
+input:focus{
+	outline: none;
+}
+.bouton{
+	background: #47167d;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    padding: 8px;
+    cursor: pointer;
+}
+.bouton:hover{
+	background : #b489e4;
+	transition: 1s;
+}
+@keyframes test {
+	from{
+		
+	}
+	to{
+
+	}
+}
